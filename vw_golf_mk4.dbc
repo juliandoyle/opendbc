@@ -1143,7 +1143,7 @@ BO_ 978 Lenkhilfe_2: 7 XXX
  SG_ COUNTER : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ LH2_Geradeaus : 12|1@1+ (1,0) [0|1] "" XXX
  SG_ LH2_Sta_Charisma : 13|3@1+ (1,0) [0|7] "" XXX
- SG_ LH2_Sta_HCA : 16|4@1+ (1,0) [0|15] "" XXX
+ SG_ LH2_Sta_ : 16|4@1+ (1,0) [0|15] "" XXX
  SG_ LH2_Ausg_LW1 : 20|1@1+ (1,0) [0|1] "" XXX
  SG_ LH2_Ausg_LW1_gue : 21|1@1+ (1,0) [0|1] "" XXX
  SG_ LH2_StatEPS_PLA : 24|4@1+ (1,0) [0|15] "" XXX
@@ -1151,10 +1151,10 @@ BO_ 978 Lenkhilfe_2: 7 XXX
  SG_ LH2_PLA_Err : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ LH2_PLA_Abbr : 52|4@1+ (1,0) [0|15] "" XXX
 
-BO_ 210 HCA_1: 5 XXX
+BO_ 210 _1: 5 XXX
  SG_ CHECKSUM : 0|8@1+ (1,0) [0|15] "" XXX
  SG_ COUNTER : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ HCA_Status : 12|4@1+ (1,0) [0|15] "" XXX
+ SG_ _Status : 12|4@1+ (1,0) [0|15] "" XXX
  SG_ LM_Offset : 16|15@1+ (0.03125,0) [0|300] "cNm" XXX
  SG_ LM_OffSign : 31|1@1+ (1,0) [0|1] "" XXX
  SG_ Vib_Freq : 32|4@1+ (4,0) [0|60] "Hz" XXX
@@ -1388,7 +1388,7 @@ BO_ 1500 Soll_Verbauliste_neu: 8 XXX
  SG_ VL1_Quersperre : 15|1@1+ (1,0) [0|1] "" XXX
  SG_ VL1_MotorSlave : 16|1@1+ (1,0) [0|1] "" XXX
  SG_ VL1_SWA : 17|1@1+ (1,0) [0|1] "" XXX
- SG_ VL1_HCA : 18|1@1+ (1,0) [0|1] "" XXX
+ SG_ VL1_ : 18|1@1+ (1,0) [0|1] "" XXX
  SG_ VL1_RKA_Plus : 19|1@1+ (1,0) [0|1] "" XXX
  SG_ VL1_PLA : 20|1@1+ (1,0) [0|1] "" XXX
  SG_ VL1_WFS_KBI : 21|1@1+ (1,0) [0|1] "" XXX
@@ -1620,7 +1620,7 @@ VAL_ 872 ACS_Fehler 1 "Fehlerspeichereintrag" 0 "kein_Fehlerspeichereintrag" ;
 VAL_ 872 ACS_zul_Regelabw 254 "ADR_nicht_aktiv" 255 "Fehler" ;
 VAL_ 872 ACS_max_AendGrad 254 "Neutralwert" 0 "Neutralwert" 255 "Fehler" ;
 
-VAL_ 978 LH2_Sta_HCA 0 "disabled" 1 "initializing" 2 "fault" 3 "ready" 4 "rejected" 5 "active";
+VAL_ 978 LH2_Sta_HCA 0 "disabled" 1 "initializing" 2 "fault" 3 "ready" 4 "rejected" 7 "active";
 VAL_ 1088 Waehlhebelposition__Getriebe_1_ 8 "P" 7 "R" 6 "N" 5 "D" 9 "U" 12 "S" 14 "T" 10 "T" 11 "T";
 
 VAL_ 1386 ACA_StaACC 6 "ACC_rev_aus" 0 "Hauptschalter_aus" 4 "ACC_im_Hintergrund" 3 "ACC_aktiv" 1 "Reserve" 2 "ACC_passiv" 7 "ACC_irrev_aus" 5 "frei" ;
